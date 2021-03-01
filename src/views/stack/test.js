@@ -1,0 +1,12 @@
+import { Stack } from '../../components/02_Stack/Stack'
+const stack = new Stack()
+console.log(stack)
+stack.push(1)
+stack.push(2)
+stack.push(3)
+console.log(stack)
+console.log(stack.pop())
+console.log(stack.size())
+console.log(stack.peek())
+console.log(stack.toString())
+console.log(stack.isEmpty())
