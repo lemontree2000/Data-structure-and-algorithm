@@ -1,5 +1,6 @@
 import { defineComponent, reactive, h, ref } from "vue";
 import { Queue } from "../../components/03_Queue/Queue";
+import  PriorityQueue from '../../components/03_Queue/PriorityQueue'
 // import './test'
 
 function passGame(nameList, num) {
